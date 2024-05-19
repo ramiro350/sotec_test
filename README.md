@@ -16,6 +16,9 @@
   o servidor estará disponível na porta 8000 do endereço local ou em formato de link acessar
   [http://localhost:8000]
 
+  Para adicionar dados usando fixtures usar o comando
+  **python3 manage.py loaddata fixtures/items.json --app base.item**
+
 ## Rotas do projeto
 
   Para acessar as rotas do projeto siga esses endereços(Nas rotas com id, substituir por um número).
