@@ -1,0 +1,26 @@
+[
+{
+    "model": "base.item",
+    "pk": 4,
+    "fields": {
+        "name": "Item #4",
+        "created": "2024-05-18T19:31:41.132Z"
+    }
+},
+{
+    "model": "base.item",
+    "pk": 5,
+    "fields": {
+        "name": "Item #5",
+        "created": "2024-05-18T19:31:56.656Z"
+    }
+},
+{
+    "model": "base.item",
+    "pk": 6,
+    "fields": {
+        "name": "Item #6",
+        "created": "2024-05-18T19:31:59.350Z"
+    }
+}
+]
