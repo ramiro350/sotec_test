@@ -7,6 +7,8 @@
 
 ## Instalar dependências
 
+  Clonar o projeto com git clone https://github.com/ramiro350/sotec_test.git
+
   Para instalar as depedências você pode tanto realizar um **pip install -r requirements.txt** ou
   fazer o build do projeto com o comando **docker compose build --no-cache**.
 
