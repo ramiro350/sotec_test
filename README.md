@@ -14,7 +14,7 @@
 
   Para rodar o projeto utilizando Docker,usar o comando **docker compose up**
 
-  Para entrar no container gerado após esse comando, usar **docker compose exec -it project-app-1 bash**
+  Para entrar no container gerado após esse comando, usar **docker exec -it project-app-1 bash**
 
   Rodar o comando dentro do container, **python3 manage.py loaddata fixtures/items.json --app base.item** 
 
