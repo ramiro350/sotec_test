@@ -22,5 +22,13 @@
         "name": "Item #6",
         "created": "2024-05-18T19:31:59.350Z"
     }
+},
+{
+    "model": "base.item",
+    "pk": 7,
+    "fields": {
+        "name": "Item #7",
+        "created": "2024-05-18T19:31:59.350Z"
+    }
 }
 ]
