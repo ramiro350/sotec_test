@@ -3,9 +3,22 @@
 ## Requisitos do projeto
   
   Para rodar e testar o projeto é necessário Python3.12, django, django-restframework,
-  para instalar o django e django-restframework, realizar o comando **pip install -r requirements.txt** em um terminal.
+  para instalar o django, django-restframework, drf-yasg e Docker.
 
-## Como rodar o projeto
+## Instalar dependências
+
+  Para instalar as depedências você pode tanto realizar um **pip install -r requirements.txt** ou
+  fazer o build do projeto com o comando **docker compose build --no-cache**.
+
+## Como rodar o projeto(Com Docker)
+
+  Para rodar o projeto utilizando Docker,usar o comando **docker compose up**
+
+  Para entrar no container gerado após esse comando, usar **docker compose exec -it project-app-1 bash**
+
+  Rodar o comando dentro do container, **python3 manage.py loaddata fixtures/items.json --app base.item** 
+
+## Como rodar o projeto(Sem Docker)
 
   Para rodar o projeto primeiro é necessário executar as migrations, usando o comando
   **python3 manage.py migrate**
